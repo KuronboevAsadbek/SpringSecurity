@@ -13,3 +13,10 @@ spring:
     url: jdbc:postgresql://localhost:5432/exchange-db
     username: test-user
     password: 1
+
+
+
+jwt:
+  token:
+    secret: tanos
+    validity: 86400000
